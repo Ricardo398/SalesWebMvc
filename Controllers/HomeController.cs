@@ -15,6 +15,8 @@ namespace SalesWebMvc.Controllers
 
         public IActionResult Index()
         {
+            ViewData["message"] = "My Portifolio";
+            ViewData["email"] = "ricxd_@hotmail.com";
             return View();
         }
 
